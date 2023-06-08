@@ -1,0 +1,9 @@
+@HD	VN:1.6	SO:coordinate
+@SQ	SN:ref1	LN:67
+@SQ	SN:ref2	LN:67
+@PG	ID:minimap2	PN:minimap2	VN:2.26-r1175	CL:minimap2 -a -s1 -m1 -w1 -E1,0 refs.fa queries.fa
+@PG	ID:samtools	PN:samtools	PP:minimap2	VN:1.17	CL:samtools sort -O sam
+qry1	0	ref1	1	60	67M	*	0	0	ATCGAGTCGTAGCAGGCTGAGCGATGCGAGGCAGCGACGGACGAGTAGCAGCTAAAGCTAAGGAGCA	*	NM:i:0	ms:i:134	AS:i:134	nn:i:0	tp:A:P	cm:i:53	s1:i:67	s2:i:0	de:f:0	rl:i:0
+qry3	0	ref1	1	46	25M19D23M	*	0	0	ATCGAGTCGTAGCAGGCTGAGCGATGTAGCAGCTAAAGCTAAGGAGCA	*	NM:i:19	ms:i:88	AS:i:73	nn:i:0	tp:A:P	cm:i:21	s1:i:44	s2:i:0	de:f:0.0204	rl:i:0
+qry2	0	ref1	33	48	35M	*	0	0	AGCGACGGACGAGTAGCAGCTAAAGCTAAGGAGCA	*	NM:i:0	ms:i:70	AS:i:70	nn:i:0	tp:A:P	cm:i:21	s1:i:35	s2:i:0	de:f:0	rl:i:0
+qry4	0	ref2	29	55	39M	*	0	0	GAGCTGATGCACGACACGACGATCGATCGACTGTATGTA	*	NM:i:0	ms:i:78	AS:i:78	nn:i:0	tp:A:P	cm:i:25	s1:i:39	s2:i:0	de:f:0	rl:i:0

@@ -1,0 +1,26 @@
+[project]
+name = "sam_subseq"
+version = "0.0.1"
+description = "Extract subsequences corresponding to annotated reference features from aligned reads in a SAM file"
+readme = "README.md"
+authors = [
+    {name = "Oliver Thomas", email = "thomaso@ie-freiburg.mpg.de"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Repository = "https://www.github.com/osthomas/sam_subseq"
+
+
+[build-system]
+requires = [
+    "setuptools >= 48"
+]
+build-backend = "setuptools.build_meta"
+
+
+[project.scripts]
+sam_subseq = "sam_subseq.main:main_cmdline"
