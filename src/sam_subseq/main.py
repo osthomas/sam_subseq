@@ -31,7 +31,7 @@ def parse_args():
         QRY:         xxxxxxxxxxyyyyyyy--z
 
         The reference has an exon annotation from position 80-290.
-        Extracting this feature from the query will yield: xxxxxxxxxx
+        Extracting this feature from the query will yield: xxxxxxxxxxyyyyyyyz
         The CDS in the query shows a deletion and is incompletely represented.
         Extracting the CDS from 180-290 will yield yyyyyyyz.
 
