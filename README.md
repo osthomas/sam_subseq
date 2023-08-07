@@ -40,7 +40,7 @@ REF:  -------------------------------
 QRY:         xxxxxxxxxxyyyyyyy--z
 
 The reference has an exon annotation from position 80-290.
-Extracting this feature from the query will yield: xxxxxxxxxx
+Extracting this feature from the query will yield: xxxxxxxxxxyyyyyyyz
 The CDS in the query shows a deletion and is incompletely represented.
 Extracting the CDS from 180-290 will yield yyyyyyyz.
 
@@ -118,7 +118,7 @@ ACGACGTACGTAGCGAACGACGATCGACGAGCTGATGCACGACACGACGATCGATCGACTGTATGTA
 ref1	.	gene	1	67	.	+	.	ID=ref1
 ref1	.	exon	10	62	.	+	.	ID=ref1:exon;=ref1-exon;Parent=ref1
 ref1	.	CDS	20	62	.	+	0	ID=ref1:CDS;Name=ref1-cds;Parent=ref1
-##sequence-region ref1 1 67
+##sequence-region ref2 1 67
 ref2	.	gene	1	67	.	+	.	ID=ref2
 ref2	.	exon	10	62	.	+	.	ID=ref2:exon;=ref2-exon;Parent=ref2
 ref2	.	CDS	20	62	.	+	0	ID=ref2:CDS;Name=ref2-cds;Parent=ref2
