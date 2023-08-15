@@ -1,6 +1,6 @@
 [project]
 name = "sam_subseq"
-version = "0.0.2"
+version = "0.1.0"
 description = "Extract subsequences corresponding to annotated reference features from aligned reads in a SAM file"
 readme = "README.md"
 authors = [

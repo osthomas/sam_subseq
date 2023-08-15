@@ -49,6 +49,7 @@ def parse_args():
           The length can be zero, for example if a feature spans positions
           50-100, but the alignment of the query spans only positions 10-40
         - gff_id: The ID of the gff record
+        - gff_type: The type of the gff record
         - gff_start: The start coordinate as defined in the GFF (ie. for the
           reference)
         - gff_end: The end coordinate as defined in the GFF

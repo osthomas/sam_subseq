@@ -109,6 +109,7 @@ def gff_to_header(gff_record, delim):
     """
     header = [
         ("gff_id", gff_record["seqid"]),
+        ("gff_type", gff_record["type"]),
         ("gff_start", gff_record["start"]),
         ("gff_end", gff_record["end"]),
         ("gff_phase", gff_record["phase"])
